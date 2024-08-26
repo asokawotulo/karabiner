@@ -24,6 +24,7 @@ writeToProfile('Default', [
     map('d').toApp('Dashlane'),
     map('f').toApp('Finder'),
     map('g').toApp('Google Chrome'),
+    map('h').toApp('Core Shell'),
     map('n').toApp('Obsidian'),
     map('m').toApp('Airmail'),
     map('s').toApp('Safari'),
