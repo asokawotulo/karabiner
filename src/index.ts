@@ -46,6 +46,7 @@ writeToProfile('Default', [
     .manipulators([
       map('v').to$('open -g raycast://script-commands/toggle-vpn'),
       map('l').to$('open -g raycast://extensions/sasivarnan/power-management/toggle-low-power-mode'),
+      map('g').to('g', ['control', 'option']), // Toggle AdGuard through Shortcut
     ]),
 
   // ! Hyper Layer "w" is for window management
