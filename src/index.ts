@@ -21,7 +21,7 @@ writeToProfile('Default', [
   hyperLayer('o', 'HyperLayer - "o"').manipulators([
     map('a').toApp('Arc'),
     map('c').toApp('Calendar'),
-    map('d').toApp('Dashlane'),
+    map('d').toApp('TablePlus'),
     map('f').toApp('Finder'),
     map('g').toApp('Google Chrome'),
     map('h').toApp('Core Shell'),
