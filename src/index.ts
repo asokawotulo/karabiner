@@ -27,6 +27,7 @@ writeToProfile('Default', [
     map('h').toApp('Core Shell'),
     map('n').toApp('Obsidian'),
     map('m').toApp('Airmail'),
+    map('p').toApp('Postman'),
     map('s').toApp('Safari'),
     map('t').toApp('Warp'),
     map('v').toApp('Visual Studio Code'),
