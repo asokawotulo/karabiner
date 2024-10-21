@@ -61,6 +61,8 @@ writeToProfile('Default', [
     map('up_arrow').to$('open -g raycast://extensions/raycast/window-management/maximize'),
     map('=').to$('open -g raycast://extensions/raycast/window-management/make-larger'),
     map('-').to$('open -g raycast://extensions/raycast/window-management/make-smaller'),
+    map('.').to$('open -g raycast://extensions/raycast/window-management/next-desktop'),
+    map(',').to$('open -g raycast://extensions/raycast/window-management/previous-desktop'),
   ]),
 
   // ! Hyper Layer "d" is for docker
