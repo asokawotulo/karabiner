@@ -30,7 +30,8 @@ writeToProfile('Default', [
     map('p').toApp('Postman'),
     map('s').toApp('Safari'),
     map('t').toApp('Warp'),
-    map('v').toApp('Visual Studio Code'),
+    // map('v').toApp('Visual Studio Code'),
+    map('v').toApp('Cursor'),
     map('w').toApp('WhatsApp'),
     map('z').toApp('Zen Browser'),
     map('1').toApp('1Password'),
@@ -64,6 +65,11 @@ writeToProfile('Default', [
     map('-').to$('open -g raycast://extensions/raycast/window-management/make-smaller'),
     map('.').to$('open -g raycast://extensions/raycast/window-management/next-desktop'),
     map(',').to$('open -g raycast://extensions/raycast/window-management/previous-desktop'),
+  ]),
+
+  // ! Hyper Layer "f" is for Finder
+  hyperLayer('f', 'HyperLayer - "f"').manipulators([
+    // map('j').to
   ]),
 
   // ! Hyper Layer "d" is for docker
