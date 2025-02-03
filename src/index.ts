@@ -19,7 +19,7 @@ writeToProfile('Default', [
 
   // ! Hyper Layer "o" is for opening apps
   hyperLayer('o', 'HyperLayer - "o"').manipulators([
-    map('a').toApp('Arc'),
+    // map('a').toApp('Arc'),
     map('c').toApp('Calendar'),
     map('d').toApp('TablePlus'),
     map('f').toApp('Finder'),
@@ -32,6 +32,7 @@ writeToProfile('Default', [
     map('t').toApp('Warp'),
     map('v').toApp('Visual Studio Code'),
     map('w').toApp('WhatsApp'),
+    map('z').toApp('Zen Browser'),
     map('1').toApp('1Password'),
     map('2').toApp('Step Two'),
   ]),
