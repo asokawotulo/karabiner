@@ -22,6 +22,7 @@ writeToProfile('Default', [
     // map('a').toApp('Arc'),
     map('c').toApp('Calendar'),
     map('d').toApp('TablePlus'),
+    map('e').toApp('Microsoft Excel'),
     map('f').toApp('Finder'),
     map('g').toApp('Google Chrome'),
     map('h').toApp('Core Shell'),
