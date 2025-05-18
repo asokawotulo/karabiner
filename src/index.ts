@@ -76,7 +76,7 @@ writeToProfile('Default', [
   // ! Hyper Layer "d" is for docker
   hyperLayer('d', 'HyperLayer - "d"').manipulators([
     map('c').to$('open -g raycast://extensions/priithaamer/docker/container_list'),
-    map('a').to$('open -a "Docker Desktop"'),
+    map('a').to$('open -a "OrbStack"'),
   ]),
   // #endregion
 
