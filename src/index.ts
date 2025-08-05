@@ -26,6 +26,7 @@ writeToProfile('Default', [
     map('f').toApp('Finder'),
     map('g').toApp('Google Chrome'),
     map('h').toApp('Core Shell'),
+    map('i').toApp('Activity Monitor'),
     map('n').toApp('Notion'),
     map('m').toApp('Airmail'),
     map('p').toApp('Postman'),
