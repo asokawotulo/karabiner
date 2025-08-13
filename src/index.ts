@@ -27,6 +27,7 @@ writeToProfile('Default', [
     map('g').toApp('Google Chrome'),
     map('h').toApp('Core Shell'),
     map('i').toApp('Activity Monitor'),
+    map('l').toApp('Slack'),
     map('n').toApp('Notion'),
     map('m').toApp('Airmail'),
     map('p').toApp('Postman'),
@@ -67,6 +68,9 @@ writeToProfile('Default', [
     map('-').to$('open -g raycast://extensions/raycast/window-management/make-smaller'),
     map('.').to$('open -g raycast://extensions/raycast/window-management/next-desktop'),
     map(',').to$('open -g raycast://extensions/raycast/window-management/previous-desktop'),
+
+    // TODO: Custom commands for window management doesn't seem to work yet
+    // map('r').to$("open -g 'raycast://customWindowManagementCommand?name=reasonableLarge'"),
   ]),
 
   // ! Hyper Layer "f" is for Finder
